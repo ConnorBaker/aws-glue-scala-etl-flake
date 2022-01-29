@@ -6,6 +6,7 @@
     flake-utils.url = "github:numtide/flake-utils";
     spark = {
       url = "https://aws-glue-etl-artifacts.s3.amazonaws.com/glue-3.0/spark-3.1.1-amzn-0-bin-3.2.1-amzn-3.tgz";
+      type = "tarball";
       flake = false;
     };
   };
